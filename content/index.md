@@ -1,0 +1,13 @@
+# Plans for Zanzibar's World of Nuclear Energy
+
+## Nuclear eXchange
+
+Discussion forum featuring leading advocates for nuclear energy. A safe space for supporters of nuclear and the nuclear curious (people who want to learn).
+
+## Nuclear Simulator
+
+Drive your own nuclear power plant. We start with basics. Modules get more intricate as you advance through learning levels. It's all about hands-on learning -- with zero risk when things go wrong.
+
+## Nuclear Learning
+
+Improve your knowledge about nuclear energy and its productive uses, topic by topic, lesson by lesson.
