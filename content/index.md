@@ -11,3 +11,7 @@ Drive your own nuclear power plant. We start with basics. Modules get more intri
 ## Nuclear Learning
 
 Improve your knowledge about nuclear energy and its productive uses, topic by topic, lesson by lesson.
+
+## Fun and Games
+
+Word searches and fun ways to get familiar with nuclear energy.
