@@ -1,52 +1,51 @@
 <template>
   <div>Theme: Nuclear Power Plant</div>
-  <div>Words to find: {{ wordList }}</div>
-  <div>Grid goes here</div>
+
   <div>
-    <ol class="puzzle-grid">
-      <li>B</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>O</li>
-      <li>A</li>
-      <li>A</li>
-      <li>A</li>
-      <li>O</li>
-    </ol>
-  </div>
-  <div v-for="row in puzzleGrid" class="container">
-    <div v-for="cell in row" class="item">{{ cell }}</div>
+    <div class="word-list">{{ wordList }}</div>
+    <div class="puzzle">
+      <ol v-for="row in puzzleGrid" class="puzzle-grid">
+        <li v-for="cell in row">{{ cell }}</li>
+      </ol>
+    </div>
   </div>
 </template>
 <script setup>
 const words = [
+  'boron',
   'fission',
-  'pressurized water',
-  'boiling water',
-  'neutron flux',
-  'chain reaction',
-  'steam turbine',
-  'generator',
+  'flux',
+  'fuel rods',
+  'neutron',
+  'steam',
+  'turbine',
+  'vessel',
 ]
-const maxRows = 3 // at least size of longest word
-const maxCols = 3 // at least size of longest word
-const puzzleGrid = []
-for (let row = 0; row < maxRows; row++) {
-  puzzleGrid.push([])
-  for (let col = 0; col < maxCols; col++) {
-    puzzleGrid[row].push('.')
-  }
-}
+const maxRows = 9 // at least size of longest word
+const maxCols = 8 // at least size of longest word
+const puzzleGrid = [
+  ['.', 'T', 'U', 'R', 'B', 'I', 'N', 'E'],
+  ['S', 'D', 'O', 'R', 'L', 'E', 'U', 'F'],
+  ['L', '.', '.', '.', '.', '.', 'B', 'N'],
+  ['E', 'F', 'I', 'S', 'S', 'I', 'O', 'N'],
+  ['S', 'L', '.', 'S', '.', 'R', 'R', '.'],
+  ['S', 'U', '.', '.', 'T', '.', 'O', '.'],
+  ['E', 'X', '.', 'U', '.', 'E', 'N', '.'],
+  ['V', '.', 'E', '.', '.', '.', 'A', '.'],
+  ['.', 'N', '.', '.', '.', '.', '.', 'M'],
+]
 const wordList = computed(() => words.join(', '))
 </script>
 <style lang="css" scoped>
+.word-list {
+  text-align: center;
+}
 ol {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(8, 1fr);
   grid-gap: 0;
   margin: 0 auto;
-  max-width: 6em;
+  max-width: 16em;
   padding: 0;
 }
 li {
@@ -56,14 +55,14 @@ li {
   list-style: none;
   margin-left: 0;
 }
+.puzzle {
+  margin-top: 2rem;
+  padding: 1rem;
+  background-color: lightskyblue;
+}
 ol.puzzle-grid li {
   border: 1px solid gray;
   height: 3vw;
-}
-
-ol.puzzle-grid li:nth-child(1),
-ol.puzzle-grid li:nth-child(5),
-ol.puzzle-grid li:nth-child(9) {
-  background-color: yellow;
+  background-color: white;
 }
 </style>
