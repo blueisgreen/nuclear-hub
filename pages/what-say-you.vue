@@ -24,16 +24,16 @@
   <div>
     <ul>
       <li>
-        <a href="#see-response">Joe responded</a> - Safety is the biggest
-        reason...
+        <NuxtLink to="#see-response">Joe responded</NuxtLink> - Safety is the
+        biggest reason...
       </li>
       <li>
-        <a href="#see-response">Barbara responded</a> - Think about the jobs
-        that nuclear...
+        <NuxtLink to="#see-response">Barbara responded</NuxtLink> - Think about
+        the jobs that nuclear...
       </li>
       <li>
-        <a href="#see-response">Sai responded</a> - When it comes to the
-        environment, there is no better habitat...
+        <NuxtLink to="#see-response">Sai responded</NuxtLink> - When it comes to
+        the environment, there is no better habitat...
       </li>
     </ul>
   </div>

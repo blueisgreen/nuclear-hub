@@ -18,11 +18,11 @@
       A fun place to learn about nuclear power. Lessons, puzzles, simulators,
       creative expression
       <div class="cta">
-        <a href="https://zanzisworld.com">The latest website</a>
+        <NuxtLink to="https://zanzisworld.com">The latest website</NuxtLink>
       </div>
       <div class="cta">
-        <a href="https://zanzisworld.substack.com/"
-          >See "the making of..." blog</a
+        <NuxtLink to="https://zanzisworld.substack.com/"
+          >See "the making of..." blog</NuxtLink
         >
         for a behind the scenes look.
       </div>
@@ -42,9 +42,10 @@
     </div>
   </div>
   <div>
-    <a href="/plans">Check out the plans</a> for everything we do here. This is
-    an open source project - everything may be shared and used freely. We will
-    figure out a licensing structure to keep bad things from happening.
+    <NuxtLink to="/plans">Check out the plans</NuxtLink> for everything we do
+    here. This is an open source project - everything may be shared and used
+    freely. We will figure out a licensing structure to keep bad things from
+    happening.
   </div>
 </template>
 
