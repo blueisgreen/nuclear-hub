@@ -1,5 +1,5 @@
 <template>
-  <h1>The Nuclear Exchange</h1>
+  <h1>The Nuclear Hub</h1>
   <div class="subtitle">
     a safe place for proponents of the productive application of nuclear energy
   </div>
@@ -14,17 +14,18 @@
   </div>
   <div class="features">
     <div class="feature">
-      <div class="heading">Zanzibar's World</div>
-      A fun place to learn about nuclear power. Lessons, puzzles, simulators,
-      creative expression
+      <div class="heading">Member Profiles and Directory</div>
+      Everyone who joins the Hub gets a free profile. This is used to share
+      information about the member. Profiles are used in the Member Directory, a
+      searchable source of information about nuclear energy and all known
+      projects to promote its use.
       <div class="cta">
-        <NuxtLink to="https://zanzisworld.com">The latest website</NuxtLink>
+        <NuxtLink to="member-profile">See a sample profile</NuxtLink>
       </div>
       <div class="cta">
-        <NuxtLink to="https://zanzisworld.substack.com/"
-          >See "the making of..." blog</NuxtLink
+        <NuxtLink to="member-directory"
+          >Check out the member directory</NuxtLink
         >
-        for a behind the scenes look.
       </div>
     </div>
     <div class="feature">
@@ -35,6 +36,20 @@
       <div class="heading">Discussion Forum</div>
       Where moderation is friendly toward proponents of nuclear. Structured as
       threaded discussion.
+    </div>
+    <div class="feature">
+      <div class="heading">Zanzibar's World</div>
+      A fun place to learn about nuclear power. Lessons, puzzles, simulators,
+      creative expression. This is going to be a separate digital property.
+      <div class="cta">
+        <NuxtLink to="https://zanzisworld.com">The latest website</NuxtLink>
+      </div>
+      <div class="cta">
+        <NuxtLink to="https://zanzisworld.substack.com/"
+          >See "the making of..." blog</NuxtLink
+        >
+        for a behind the scenes look.
+      </div>
     </div>
     <div class="feature">
       <div class="heading">What else?</div>
