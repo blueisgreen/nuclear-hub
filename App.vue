@@ -20,4 +20,8 @@ route
 nav {
   margin-bottom: 2rem;
 }
+a {
+  color: blue;
+  text-decoration: underline;
+}
 </style>

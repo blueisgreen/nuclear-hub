@@ -20,7 +20,7 @@
       searchable source of information about nuclear energy and all known
       projects to promote its use.
       <div class="cta">
-        <NuxtLink to="member-profile">See a sample profile</NuxtLink>
+        <NuxtLink to="/member">See a sample profile</NuxtLink>
       </div>
       <div class="cta">
         <NuxtLink to="member-directory"
