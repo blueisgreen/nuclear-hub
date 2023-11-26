@@ -6,11 +6,7 @@
   <div class="prose">
     Generic platforms try to be all things to all groups. This platform strives
     to serve the people who are fans of nuclear energy. It's also a great place
-    for those who are new to the topic to learn more.
-  </div>
-  <div class="prose">
-    Let's explore and learn together all about nuclear energy and the ways it
-    can and does benefit the world.
+    for those who are new to the topic and want to learn more.
   </div>
   <div class="features">
     <div class="feature">

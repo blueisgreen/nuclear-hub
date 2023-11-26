@@ -1,8 +1,9 @@
 <template>
   <div data-theme="aqua">
-    <nav>
+    <nav class="ml-4 mt-4">
       TOC: <NuxtLink to="/">Home</NuxtLink> |
       <NuxtLink to="/plans">Plans</NuxtLink> |
+      <NuxtLink to="/member/">Member Profiles</NuxtLink> |
       <NuxtLink to="/what-say-you">Discussion</NuxtLink> |
       <NuxtLink to="/word-search">Games</NuxtLink>
       <hr />
@@ -27,13 +28,14 @@ h2,
 h3,
 h4,
 h5 {
-  color: lightskyblue;
+  color: teal;
 }
 h1 {
-  font-size: 24pt;
-  font-weight: bold;
+  font-size: 28pt;
   margin-top: 2.5rem;
   margin-bottom: 0.5rem;
+  border-bottom: 1px solid gray;
+  border-top: double 3px gray;
 }
 h2 {
   font-size: 20pt;
@@ -56,8 +58,11 @@ h5 {
   font-size: 12pt;
   font-weight: bold;
 }
+p {
+  margin-bottom: 0.5rem;
+}
 a {
-  color: lightskyblue;
+  color: navy;
   text-decoration: underline;
 }
 ul {
@@ -65,5 +70,15 @@ ul {
   margin-left: 1.5rem;
   margin-top: 0.5rem;
   margin-bottom: 1rem;
+}
+textarea {
+  border: 1px solid blue;
+  padding: 0.5rem;
+}
+button {
+  padding: 0.25rem;
+  border: 1px solid navy;
+  color: white;
+  background-color: blue;
 }
 </style>

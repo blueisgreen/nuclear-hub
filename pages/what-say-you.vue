@@ -1,5 +1,5 @@
 <template>
-  <h1>The Nuclear Hub Discussion Forum</h1>
+  <h1>The Nuclear Hub Forum</h1>
   <p>
     Let's talk about anything related to the productive use of nuclear energy.
   </p>
