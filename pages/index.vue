@@ -69,7 +69,6 @@
 <style scoped>
 h1 {
   font-size: 24pt;
-  color: navy;
 }
 .subtitle {
   font-size: 18pt;

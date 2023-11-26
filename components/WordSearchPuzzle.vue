@@ -24,15 +24,15 @@ const words = [
 const maxRows = 9 // at least size of longest word
 const maxCols = 8 // at least size of longest word
 const puzzleGrid = [
-  ['.', 'T', 'U', 'R', 'B', 'I', 'N', 'E'],
+  ['A', 'T', 'U', 'R', 'B', 'I', 'N', 'E'],
   ['S', 'D', 'O', 'R', 'L', 'E', 'U', 'F'],
-  ['L', '.', '.', '.', '.', '.', 'B', 'N'],
+  ['L', 'B', 'C', 'D', 'E', 'F', 'B', 'N'],
   ['E', 'F', 'I', 'S', 'S', 'I', 'O', 'N'],
-  ['S', 'L', '.', 'S', '.', 'R', 'R', '.'],
-  ['S', 'U', '.', '.', 'T', '.', 'O', '.'],
-  ['E', 'X', '.', 'U', '.', 'E', 'N', '.'],
-  ['V', '.', 'E', '.', '.', '.', 'A', '.'],
-  ['.', 'N', '.', '.', '.', '.', '.', 'M'],
+  ['S', 'L', 'G', 'S', 'H', 'R', 'R', 'I'],
+  ['S', 'U', 'J', 'K', 'T', 'L', 'O', 'M'],
+  ['E', 'X', 'N', 'U', 'O', 'E', 'N', 'P'],
+  ['V', 'Q', 'E', 'R', 'S', 'T', 'A', 'U'],
+  ['V', 'N', 'W', 'X', 'Y', 'Z', 'A', 'M'],
 ]
 const wordList = computed(() => words.join(', '))
 </script>
