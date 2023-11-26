@@ -1,7 +1,5 @@
 <template>
-  <div>
-    <MemberProfileForm />
-  </div>
+  <div>Nice form.</div>
 </template>
 
 <script setup></script>
